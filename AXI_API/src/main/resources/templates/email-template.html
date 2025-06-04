@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Ontvangen</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f9f9f9; color: #333; line-height: 1.6;">
+<div class="container" style="max-width: 600px; margin: 0 auto; background-color: #fff; padding: 30px; box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1); border-radius: 10px;">
+    <p class="greeting" style="font-size: 20px; color: #333; margin-bottom: 15px;">Hallo <span th:text="${receiverFirstName}"></span>,</p>
+    <p class="message" style="font-size: 16px; margin-bottom: 20px;">
+        Je hebt nieuwe feedback ontvangen van <span style="color: #00d084; font-weight: bold;"><span th:text="${senderFirstName}"></span> <span th:text="${senderLastName}"></span></span>! We nodigen je uit om in te loggen en de feedback te bekijken.
+    </p>
+    <a class="cta-button" th:href="@{https://your-login-page.com}" style="display: block; background-color: #00d084; color: white; padding: 15px 30px; text-decoration: none; font-size: 16px; font-weight: bold; text-align: center; border-radius: 8px; transition: background-color 0.3s ease; width: fit-content; margin: 0 auto;">Bekijk je Feedback</a>
+</div>
+<footer style="background-color: #f1f1f1; color: #777; text-align: center; padding: 15px; font-size: 14px; margin-top: 40px;">
+    <p>&copy; 2024 Anchr - Alle rechten voorbehouden.</p>
+</footer>
+</body>
+</html>

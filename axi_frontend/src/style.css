@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  /*display: flex;*/
+  /*place-items: center;*/
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#app {
+  /*max-width: 1280px;*/
+  /*margin: 0 auto;*/
+  /*padding: 2rem;*/
+  /*text-align: center;*/
+  
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: revert;
+  font-weight: revert;
+}
+
+
+.btn {
+  @apply px-4 py-2 rounded-lg cursor-pointer;
+}
+
+.btn-blue {
+  @apply bg-blue-500 text-white;
+}
+
+.btn-blue:hover {
+  @apply bg-blue-700;
+}
+
+.btn-red {
+  @apply bg-red-500 text-white;
+}
+
+.btn-red:hover {
+  @apply bg-red-700;
+}
+
+.btn-green {
+  @apply bg-green-600 text-white;
+}
+
+.btn-green:hover {
+  @apply bg-green-700;
+}
+
+.AXI-color{
+  color: #7A36FF;
+}
+
+.AXI-bg{
+  background-color: #7A36FF;
+}
+
+.AXI-bg-hover{
+  &:hover{
+    background-color: #6B2DFF ;
+  }
+}
+

@@ -1,0 +1,33 @@
+{
+  "name": "axi_frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@preline/overlay": "^2.5.0",
+    "@preline/select": "^2.5.1",
+    "@vueuse/core": "^11.1.0",
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "preline": "^2.5.1",
+    "vue": "^3.4.37",
+    "vue-final-modal": "^4.5.5",
+    "vue-multiselect": "^3.1.0",
+    "vue-router": "^4.4.5",
+    "vue3-popper": "^1.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.2",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.1",
+    "vue-tsc": "^2.0.29"
+  }
+}

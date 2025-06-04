@@ -1,0 +1,14 @@
+spring.application.name=AXI_API
+
+security.jwt.expiration-time=
+security.jwt.secret-key=
+
+spring.datasource.url=
+spring.datasource.username=
+spring.datasource.password=
+
+cors.origin=
+
+password.pepper=
+
+
